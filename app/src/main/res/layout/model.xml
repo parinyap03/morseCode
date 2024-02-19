@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/btn_style"
+
+    android:contentDescription="hello"
+    android:orientation="horizontal">
+
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:padding="5dp"-->
+    <!--        android:layout_margin="10dp"-->
+    <!--        android:id="@+id/play_button"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center|right"-->
+    <!--        android:baselineAlignBottom="false"-->
+    <!--        android:clickable="true"-->
+    <!--        android:contentDescription="hello"-->
+    <!--        app:backgroundTint="#F44336"-->
+    <!--        app:srcCompat="@drawable/ic_sound" />-->
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="220dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+
+        app:srcCompat="@drawable/n00" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/btn_start"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:fontFamily="@font/front"
+        android:padding="10dp"
+        android:text="play"
+        android:textColor="@color/purple_500"
+        android:textSize="24dp"
+        app:backgroundTint="#FFC550"
+        app:icon="@drawable/ic_sound" />
+
+
+</LinearLayout>

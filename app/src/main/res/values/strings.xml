@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">morseCode</string>
+    <string name="title_home">Number</string>
+    <string name="title_dashboard">Eng</string>
+    <string name="title_notifications">Thai</string>
+    <string name="title_about">Home</string>
+</resources>
